@@ -25,6 +25,6 @@ from users import urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('user', include('users.urls'))
+    path('user/', include('users.urls'))
 
 ]
