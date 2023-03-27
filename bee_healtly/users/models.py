@@ -14,7 +14,9 @@ class User(models.Model):
     email = models.EmailField(blank=False, null=False)
     adress = models.CharField(max_length=200,blank=False, null=False)
     age = models.IntegerField(blank=False, null=False)
+    profile_picture = models.ImageField(upload_to='users_pictures', blank=True, null=True)
     training_level = models.ForeignKey(Training_level, on_delete=models.DO_NOTHING, blank=True)
+
 
     def __str__(self):
         return self.name
@@ -27,4 +29,4 @@ class Measurements(models.Model):
     waist = models.DecimalField(max_digits=4, decimal_places=1, blank=False, null=False) #cintura
     hips = models.DecimalField(max_digits=4, decimal_places=1, blank=False, null=False) #quadril
     legs = models.DecimalField(max_digits=4, decimal_places=1, blank=False, null=False) #perna
-
+    
