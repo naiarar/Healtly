@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T19:47:50.611Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="5wafB3eyw4AiUIKIEk-W" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T19:57:57.101Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pobF9MuU7uQT0nRlJdEd" version="21.1.1" type="github">
   <diagram name="Página-1" id="QN-l5Cvf_ZFzQhAqVFd9">
-    <mxGraphModel>
+    <mxGraphModel dx="2416" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jp9rniIs49GK-U40GYv0-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot; face=&quot;Quicksand&quot; style=&quot;font-size: 48px;&quot;&gt;Requirements&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-1599" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jp9rniIs49GK-U40GYv0-2" value="&lt;span style=&quot;font-size: 18px; font-family: Quicksand; background-color: initial;&quot;&gt;Primeira Etapa&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot; face=&quot;Quicksand&quot; style=&quot;font-size: 18px;&quot;&gt;Cadastro de perfil de usuário&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot; face=&quot;Quicksand&quot; style=&quot;font-size: 18px;&quot;&gt;Cadastro medidas do usuário&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot; face=&quot;Quicksand&quot; style=&quot;font-size: 18px;&quot;&gt;Lembrete mensal de medidas usuário&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot; face=&quot;Quicksand&quot; style=&quot;font-size: 18px;&quot;&gt;Gráfico de comparação medidas mensais&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot; face=&quot;Quicksand&quot; style=&quot;font-size: 18px;&quot;&gt;Emissão de relatório pdf e excel das medidas&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-1654" y="60" width="440" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
