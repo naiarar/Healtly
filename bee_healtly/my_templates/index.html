@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %} Inicio {% endblock %}
+{% block main %}
+
+    <h1>Olá Mundo</h1>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    {% if sexo == 'm' %}
+        Olá senhor {{ nome }}
+    {% elif sexo == 'f' %}
+        Olá senhora {{ nome }}
+    {% else %}
+        Olá {{ nome }}
+    {% endif %}
+
+{% endblock %}
+
