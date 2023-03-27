@@ -29,4 +29,4 @@ class Measurements(models.Model):
     waist = models.DecimalField(max_digits=4, decimal_places=1, blank=False, null=False) #cintura
     hips = models.DecimalField(max_digits=4, decimal_places=1, blank=False, null=False) #quadril
     legs = models.DecimalField(max_digits=4, decimal_places=1, blank=False, null=False) #perna
-    
+    body_pictures = models.ImageField(upload_to='users_pictures', blank=True)
