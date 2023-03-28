@@ -1,22 +1,12 @@
 {% extends 'base.html' %}
-{% block title %} Inicio {% endblock %}
+{% block title %} BeeMe {% endblock %}
 {% block main %}
 
-    <h1>Olá Mundo</h1>
+    <h1>Bee<strong>Me</strong></h1>
+    <h4>Um site onde você pode ser você mesmo, registre sua evolução e sua melhor versão</h4>
 
-    <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ul>
 
-    {% if sexo == 'm' %}
-        Olá senhor {{ nome }}
-    {% elif sexo == 'f' %}
-        Olá senhora {{ nome }}
-    {% else %}
-        Olá {{ nome }}
-    {% endif %}
+
 
 {% endblock %}
 
