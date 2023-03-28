@@ -10,6 +10,7 @@
     --azul: #1b227d;
     --verde_musgo: #c7d8c6;
     --laranja: #ff5035;
+    --amarelo: #ffed75;
 }
 
 *{
@@ -17,14 +18,14 @@
 }
 
 html, body{
-    color: var(--verde);
-    background-color: var(--nude)
+    color: var(--amarelo);
+    background-color: var(--black)
 }
 
 h1{
-    color: var(--verde);
+    color: var(--amarelo);
 }
 
 h4{
-    color: var(--laranja);
+    color: var(--verde_musgo);
 }
